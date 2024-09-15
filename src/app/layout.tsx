@@ -1,3 +1,4 @@
+import MainAppBar from '@/components/MainAppBar';
 import theme from '@/theme';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -12,6 +13,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
           <ThemeProvider theme={theme}>
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
             <CssBaseline />
+            <MainAppBar />
             {props.children}
           </ThemeProvider>
         </AppRouterCacheProvider>
