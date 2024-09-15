@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-fullstack-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.16.0",
+    "yarn": ">=1.22.0 <2",
+    "npm": "please-use-yarn"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' snext dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "prettier": "prettier --write .",
+    "commitlint": "commitlint --edit"
+  },
+  "dependencies": {
+    "next": "14.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.10.0",
+    "eslint-config-next": "14.2.8",
+    "husky": "^9.1.5",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
