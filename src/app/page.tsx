@@ -18,7 +18,7 @@ export default function Home() {
           alignItems: 'left',
         }}
       >
-        <Heading />
+        <Heading text="Keto Calculator" />
         <SubHeading />
         <IntroText />
         <GetStarted />
