@@ -14,8 +14,8 @@ export default function Home() {
           my: 4,
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'center',
           alignItems: 'left',
+          gap: '20px',
         }}
       >
         <Heading text="Keto Calculator" />
