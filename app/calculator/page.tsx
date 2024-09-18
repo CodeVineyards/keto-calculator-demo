@@ -9,8 +9,8 @@ import FoodItemList from './components/FoodItemList';
 import SearchAddFood from './components/SearchAddFood';
 import Summary from './components/Summary';
 
-import foodData from '@/foods'; // Adjust the path according to your project structure
-import { FoodItem } from '@/types'; // Adjust the path to your types file
+import foodData from '@/app/foods'; // Adjust the path according to your project structure
+import { FoodItem } from '@/app/types'; // Adjust the path to your types file
 
 const CalculatorPage: React.FC = () => {
   // Define state with FoodItem type

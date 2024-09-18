@@ -4,7 +4,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-import { FoodItem } from '@/types'; // Import the FoodItem type from your types file
+import { FoodItem } from '@/app/types'; // Import the FoodItem type from your types file
 
 // Define the props interface
 interface ISummaryProps {

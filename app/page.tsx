@@ -1,10 +1,10 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
-import GetStarted from '@/components/GetStarted';
-import Heading from '@/components/Heading';
-import IntroText from '@/components/IntroText';
-import SubHeading from '@/components/SubHeading';
+import GetStarted from '@/app/components/GetStarted';
+import Heading from '@/app/components/Heading';
+import IntroText from '@/app/components/IntroText';
+import SubHeading from '@/app/components/SubHeading';
 
 export default function Home() {
   return (

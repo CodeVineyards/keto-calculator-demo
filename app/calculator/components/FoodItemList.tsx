@@ -7,7 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Paper from '@mui/material/Paper';
 
-import { FoodItem } from '@/types'; // Import FoodItem type from your types file
+import { FoodItem } from '@/app/types'; // Import FoodItem type from your types file
 
 // Define the props interface
 interface IFoodItemListProps {

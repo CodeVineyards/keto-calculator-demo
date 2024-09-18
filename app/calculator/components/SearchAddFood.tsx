@@ -1,5 +1,5 @@
 // components/SearchAddFood.tsx
-import { FoodDataItem, FoodItem } from '@/types'; // Ensure this is correctly imported
+import { FoodDataItem, FoodItem } from '@/app/types'; // Ensure this is correctly imported
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';

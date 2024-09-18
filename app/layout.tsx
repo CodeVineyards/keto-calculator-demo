@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import MainAppBar from '@/components/MainAppBar';
-import theme from '@/theme';
+import MainAppBar from '@/app/components/MainAppBar';
+import theme from '@/app/theme';
 
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import CssBaseline from '@mui/material/CssBaseline';
